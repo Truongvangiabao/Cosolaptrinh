@@ -1,0 +1,8 @@
+name=input('Ho ten: ')
+d=int(input('So ngay cong: '))
+g=int(input('Don gia ngay cong: '))
+h=float(input('He so phu cap: '))
+t=int(input('Tam ung: '))
+l=float(g*d*h)
+TL=float(l-t)
+print('Nhan vien ',name , ', Co tien luong=',l,', Tam ung=',t, ' va Thuc linh=',TL,sep="")

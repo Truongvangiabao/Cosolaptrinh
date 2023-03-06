@@ -1,0 +1,3 @@
+a=int(input('Nhap vao ban kinh cua duong tron: '))
+print('Dien tich cua duong tron co ban kinh',a ,'la =',round(3.14*a**2,1))
+print('Chu vi cua duong tron co ban kinh',a ,'la =',round(2*a*3.14,1)) #round: làm tròn dến chữ số...
