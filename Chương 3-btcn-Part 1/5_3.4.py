@@ -9,7 +9,7 @@ if (3<=dtb<5) :
 if (5<=dtb<6) :
     print('Trung bình')
 if (6<=dtb<7) :
-    print('Trung binh kha')
+    print('Trung bình khá')
 if (7<=dtb<8) :
     print('Khá')
 if (8<=dtb<9) :
