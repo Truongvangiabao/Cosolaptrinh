@@ -10,11 +10,13 @@ else :
     print('Khong hop le.')
 
 
+            
+# s=0
 # n=int(input('n='))
-# i=2
-# for i in range (2,n-1) :
-#     if n%1==0 :
-#         print(n,'khong la SNT')
-#         break
-#     else:
-#         print(n,'la SNT')
+# for i in range(1,n+1):
+#     if n%i==0:
+#         s=s+1
+# if s==2:
+#     print(n,"la SNT")
+# else:
+#     print(n,'khong la SNT')
