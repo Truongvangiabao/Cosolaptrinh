@@ -6,5 +6,5 @@ while True :
         break
     while i<=n :
         a=a*i
-        i=i+1
+        i=i+2
     print(a)
