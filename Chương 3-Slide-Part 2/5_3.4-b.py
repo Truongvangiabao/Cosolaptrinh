@@ -11,11 +11,19 @@
 #     print('')
 #     i=i+2 
 
+# i=1
+# n=17
+# #n=int(input("n="))
+# while i<=n:
+#     print(" "*((n-i)//2),end="")
+#     print("*"*(i))
+#     i=i+2
+# print()
+
+
+n=int(input('n='))
 i=1
-n=17
-#n=int(input("n="))
 while i<=n:
-    print(" "*((n-i)//2),end="")
-    print("*"*(i))
-    i=i+2
-print()
+    print(" "*(n-i),end="")
+    print("*"*(2*i-1))
+    i=i+1
