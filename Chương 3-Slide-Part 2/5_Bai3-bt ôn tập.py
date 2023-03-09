@@ -11,3 +11,12 @@ if 0<=n<=9999:
     print(n,'co',chuso,'chu so')
 else :
     print ('Khong hop le')
+    
+    
+    
+# n=int(input("n="))      
+# m=0
+# while n>=10:
+#         n=n/10
+#         m=m+1      
+# print(int(round(n*(10**m),0)),"co",m+1,"chu so")
