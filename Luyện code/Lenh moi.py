@@ -10,3 +10,6 @@
 # factorial: lấy giây thừa #math.factorial(5) --> 5!
 
 # a,b,c = map(int,input().split())
+
+# #import random
+# random.randint(a,b,c)
