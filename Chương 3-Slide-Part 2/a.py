@@ -7,6 +7,7 @@ def nguoi():
     return n
 def may():
     m = random.randint(1, 3)
+    print("Máy chọn:",m, sep="")
     return m
 def gan_bien(n, m):
     i = 0
@@ -17,8 +18,7 @@ def gan_bien(n, m):
     else:
         i -= 1
     return i
-def Ket_qua(m, i):
-    print("Máy chọn:",m, sep="")
+def Ket_qua(i):
     if i == 0:
         print("Hòa nhau")
     elif i == 1:
@@ -32,4 +32,4 @@ while True:
         break
     m = may()
     i = gan_bien(n, m)
-    Ket_qua(m, i)
+    Ket_qua(i)

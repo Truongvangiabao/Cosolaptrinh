@@ -1,35 +1,27 @@
 import random
 def nguoi():
-    n = int(input("(1)Keo,(2)Bua,(3)Bao:"))
-    while n >= 4 or n < 0:
-        print("Không hợp lệ,mời nhập lại:", end="")
-        n = int(input())
+    n=int(input('(1)Keo,(2)Bua,(3)Bao:'))
+    while n<0 or n>=4:
+        print('Không hợp lệ, mời nhập lại:',end="")
+        n=int(input())
     return n
+
 def may():
-    m = random.randint(1, 3)
-    print("Máy chọn:",m, sep="")
+    m=random.randint(1,3)
+    print('Máy chọn:',m,sep="")
     return m
-def gan_bien(n, m):
-    i = 0
-    if n == m:
-        i == 0
-    elif (n == 1 and m == 3) or (n == 2 and m == 1) or (n == 3 and m == 2):
-        i += 1
+
+def Ket_qua(n,m):
+    if n==m:
+        print('Hòa Nhau')
+    elif (n==1 and m==3) or (n==2 and m==1) or (n==3 and m==1):
+        print('Chúc mừng!Bạn đã thắng.')
     else:
-        i -= 1
-    return i
-def Ket_qua(i):
-    if i == 0:
-        print("Hòa nhau")
-    elif i == 1:
-        print("Chúc mừng! Bạn đã thắng.")
-    else:
-        print("Rất tiếc, bạn đã thua.")
+        print('Rất tiếc!Bạn đã thua.')
+
 while True:
-    n = nguoi()
-    if n == 0:
-        print('Kết thúc.')
+    n=nguoi()
+    if n==0:
         break
-m = may()
-i = gan_bien(n, m)
-Ket_qua(i)
+    m=may()
+    Ket_qua(n,m)
