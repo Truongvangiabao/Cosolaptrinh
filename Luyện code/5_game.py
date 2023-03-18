@@ -1,6 +1,6 @@
 import random
 def nguoi():
-    n=int(input('(1)Keo,(2)Bua,(3)Bao:'))
+    n=int(input('Người chọn (1)Búa,(2)Kéo,(3)Bao:'))
     while n<0 or n>=4:
         print('Không hợp lệ, mời nhập lại:',end="")
         n=int(input())
@@ -13,15 +13,16 @@ def may():
 
 def Ket_qua(n,m):
     if n==m:
-        print('Hòa Nhau')
-    elif (n==1 and m==3) or (n==2 and m==1) or (n==3 and m==1):
-        print('Chúc mừng!Bạn đã thắng.')
+        print('Hòa.')
+    elif (n==1 and m==2) or (n==2 and m==3) or (n==3 and m==1):
+        print('Người thắng.')
     else:
-        print('Rất tiếc!Bạn đã thua.')
-
+        print('Máy thắng.')
+        
 while True:
     n=nguoi()
     if n==0:
+        print('Kết thúc.')
         break
     m=may()
     Ket_qua(n,m)
