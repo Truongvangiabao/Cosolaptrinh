@@ -7,7 +7,7 @@
 # Làm tròn số đến bao nhiêu chữ số thập phân
 # print("{:.x1f}".format(x2)) #x1 là làm tròn đến bao nhiêu, #2 là biến : 1 số
 # print("{:.x1f} {:.x1f}".format(x1,x2)) 
-# print("{:.x1f} {:.x1f}".format(sorted(x1,x2)), IN RA THEO THỨ TỰ TĂNG DẦN
+# print("{:.x1f} {:.x1f}".format(*sorted([x1,x2]))), IN RA THEO THỨ TỰ TĂNG DẦN
 # print("{:.xf} {:.xf}".format(x1, x2)[::-1]) , IN RA THEO THỨ TỰ GIẢM DẦN
 
 # In ra màn hình như viết văn bản
@@ -19,3 +19,5 @@
 # Lấy ngẫu nhiên
 # #import random
 # random.randint(a,b,c)
+
+# all(ĐK1<x<Đk2 for x in [biến1, biến 2])
