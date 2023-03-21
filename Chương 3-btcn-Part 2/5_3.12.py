@@ -1,6 +1,6 @@
 n=int(input())
 l=list(str(n))
-if 0<=n<=9999:
+if 0<n<9999:
     for i in range(0,len(l)):
         b=l[i] # tìm các phần tử trong list l để tương ứng với các giá trị
         if b=="0":
