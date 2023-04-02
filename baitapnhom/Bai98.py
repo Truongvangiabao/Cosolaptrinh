@@ -1,6 +1,6 @@
 def nhap():
     a=input('Nhap du lieu:')
-    a=a.upper() # VD 3C0
+    a=a.upper() # Để loại trừ trường hợp nhập chữ thường (viết hoa)
     return a
 def hex2int(a):
     A=["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"]
