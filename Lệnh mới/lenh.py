@@ -16,8 +16,11 @@
 # Lấy giai thừa
 # factorial: lấy giây thừa #math.factorial(5) --> 5!
 
-# Lấy ngẫu nhiên
+# Lấy ngẫu nhiên các số trong khoản ():
 # #import random
 # random.randint(a,b,c)
+# Lấy ngẫu nhiên các ký tự trong chuỗi cho trước:
+#random.choice()
 
 # all(ĐK1<x<Đk2 for x in [biến1, biến 2])
+

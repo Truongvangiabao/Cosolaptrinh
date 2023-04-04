@@ -5,7 +5,7 @@ def nhap():
 def hex2int(a):
     A=["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"]
     s=0 # a=7DE
-    B=len(a)-1
+    B=len(a)-1 # số mũ
     for i in a: # i nhận từ giá trị trong chuỗi a
         if i in A:
             x=A.index(i) # vi thu cua i trong chuoi A , x=3

@@ -1,6 +1,4 @@
 def LaSoNguyenTo(x):
-    if x<=1 :
-        return False
     s=0
     for i in range(1,x+1):
         if x%i==0:
@@ -11,10 +9,11 @@ def LaSoNguyenTo(x):
 def SoHopLe(x):
     if x<=1:
         return True
-    return False
+    else:
+        return False
 def NhapVaDem():
     dem=0
-    print("Nhap day so:")
+    print('Nhap day so:')
     while True:
         x=int(input())
         if SoHopLe(x):
@@ -22,7 +21,10 @@ def NhapVaDem():
         if LaSoNguyenTo(x)==True:
             dem=dem+1
     return dem
-def InKQ(dem):
-    print("Co",dem,"so nguyen to")
+def InKQ(kq):
+    print(f'Co {kq} so nguyen to')
+
 dem=NhapVaDem()
-InKQ(dem)
+kq=dem
+InKQ(kq)
+    

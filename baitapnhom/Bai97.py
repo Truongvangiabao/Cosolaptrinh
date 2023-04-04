@@ -1,5 +1,5 @@
-from bai94 import taomatkhau
-from bai96 import kiemthu
+from Bai94 import taomatkhau
+from Bai96 import kiemthu
 
 def main():
     s=0
